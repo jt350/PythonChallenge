@@ -6,3 +6,4 @@ html = urllib.request.urlopen("http://www.pythonchallenge.com/pc/def/equality.ht
 data = re.findall("<!--(.*?)-->", html, re.DOTALL)[-1]
 
 re.findall("[^A-Z]+[A-Z]{3}([a-z])[A-Z]{3}[^A-Z]+", data)
+

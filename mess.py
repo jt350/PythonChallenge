@@ -2,7 +2,7 @@ import re
 
 seq = re.compile('[a-z][A-Z]{3}[a-z][A-Z]{3}[a-z]')
 
-mess=open('E:\\Muscript\PythonChallenge\mess.txt','r')
+mess=open('/Users/johntaylor/Documents/Git/PythonChallenge/mess.txt','r')
 
 mess_contents = mess.read()
 
